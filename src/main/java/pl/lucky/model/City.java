@@ -13,6 +13,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @NoArgsConstructor
 public class City {
 
+    private int id;
     private String name;
     private int population;
 
